@@ -1,10 +1,10 @@
 name       : retro-gtk
-version    : 0.8.1
-release    : 1
+version    : 0.10.0
+release    : 2
 source     :
-    - https://github.com/GNOME/retro-gtk/archive/0.8.1.tar.gz : 9da3a2f8ed2f63fc2972ad2c3e955bf0fed4bbf86cdb6807ec6728e53173b8f2
+    - https://github.com/GNOME/retro-gtk/archive/0.10.0.tar.gz : 2cb312ae6509c9228c371000f7a486d27df9015b427f2c23b4fbb516494e1b7d
 license    : GPL-3.0
-component  : programming
+component  : programming.library
 summary    : retro-gtk is a toolkit to write  GTK+ 3 based Libretro frontends.
 description: |
     retro-gtk is a toolkit to write  GTK+ 3 based Libretro frontends.

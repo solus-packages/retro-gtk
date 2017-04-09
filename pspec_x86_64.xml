@@ -2,11 +2,11 @@
     <Source>
         <Name>retro-gtk</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0</License>
-        <PartOf>programming</PartOf>
+        <PartOf>programming.library</PartOf>
         <Summary xml:lang="en">retro-gtk is a toolkit to write  GTK+ 3 based Libretro frontends.</Summary>
         <Description xml:lang="en">retro-gtk is a toolkit to write  GTK+ 3 based Libretro frontends.
 </Description>
@@ -17,14 +17,12 @@
         <Summary xml:lang="en">retro-gtk is a toolkit to write  GTK+ 3 based Libretro frontends.</Summary>
         <Description xml:lang="en">retro-gtk is a toolkit to write  GTK+ 3 based Libretro frontends.
 </Description>
-        <PartOf>programming</PartOf>
+        <PartOf>programming.library</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/girepository-1.0/Retro-0.8.typelib</Path>
-            <Path fileType="library">/usr/lib64/girepository-1.0/RetroGtk-0.8.typelib</Path>
+            <Path fileType="library">/usr/lib64/girepository-1.0/Retro-0.10.typelib</Path>
             <Path fileType="library">/usr/lib64/lib*.so.*</Path>
             <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="data">/usr/share/gir-1.0/Retro-0.8.gir</Path>
-            <Path fileType="data">/usr/share/gir-1.0/RetroGtk-0.8.gir</Path>
+            <Path fileType="data">/usr/share/gir-1.0/Retro-0.10.gir</Path>
         </Files>
     </Package>
     <Package>
@@ -34,7 +32,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1">retro-gtk</Dependency>
+            <Dependency release="2">retro-gtk</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -44,12 +42,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-11-13</Date>
-            <Version>0.8.1</Version>
+        <Update release="2">
+            <Date>2017-04-09</Date>
+            <Version>0.10.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
