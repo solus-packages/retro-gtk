@@ -1,6 +1,6 @@
 name       : retro-gtk
 version    : 0.10.0
-release    : 2
+release    : 3
 source     :
     - https://github.com/GNOME/retro-gtk/archive/0.10.0.tar.gz : 2cb312ae6509c9228c371000f7a486d27df9015b427f2c23b4fbb516494e1b7d
 license    : GPL-3.0
