@@ -1,8 +1,8 @@
 name       : retro-gtk
-version    : 0.10.0
-release    : 3
+version    : 0.12.1
+release    : 4
 source     :
-    - https://github.com/GNOME/retro-gtk/archive/0.10.0.tar.gz : 2cb312ae6509c9228c371000f7a486d27df9015b427f2c23b4fbb516494e1b7d
+    - https://download.gnome.org/sources/retro-gtk/0.12/retro-gtk-0.12.1.tar.xz : daadab43c8189d92be5832e2cfbf1afdfa6ad3201933cc946a2d6761bfd5b166
 license    : GPL-3.0
 component  : programming.library
 summary    : retro-gtk is a toolkit to write  GTK+ 3 based Libretro frontends.
@@ -13,7 +13,7 @@ builddeps  :
     - pkgconfig(libpulse)
     - vala
 setup      : |
-    %autogen
+    %reconfigure
 build      : |
     %make
 install    : |
